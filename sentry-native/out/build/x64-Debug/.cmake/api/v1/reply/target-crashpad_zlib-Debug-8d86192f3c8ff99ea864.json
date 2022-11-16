@@ -1,0 +1,490 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "crashpad_build/third_party/zlib/crashpad_zlib.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_compile_options",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"external/crashpad/third_party/zlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 56,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 59,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4131"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4245"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4267"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4324"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/wd5105"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/FS"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/WX"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/Zi"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/bigobj"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/wd4100"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/wd4127"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/wd4351"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/wd4577"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "/wd4996"
+				},
+				{
+					"fragment" : "-std:c11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "CRASHPAD_LSS_SOURCE_EMBEDDED"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "CRASHPAD_ZLIB_SOURCE_EMBEDDED"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "HAVE_STDARG_H"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NOMINMAX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WIN32_LEAN_AND_MEAN"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ZLIB_CONST"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_HAS_EXCEPTIONS=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/zlib/zlib"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium/mini_chromium"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				15,
+				17,
+				20,
+				22,
+				25,
+				28,
+				29,
+				30
+			]
+		}
+	],
+	"id" : "crashpad_zlib::@6e8cdadd8cf38dab5571",
+	"name" : "crashpad_zlib",
+	"nameOnDisk" : "crashpad_zlib.lib",
+	"paths" : 
+	{
+		"build" : "crashpad_build/third_party/zlib",
+		"source" : "external/crashpad/third_party/zlib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				4,
+				6,
+				8,
+				9,
+				10,
+				11,
+				12,
+				15,
+				17,
+				20,
+				22,
+				25,
+				28,
+				29,
+				30
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				13,
+				14,
+				16,
+				18,
+				19,
+				21,
+				23,
+				24,
+				26,
+				27,
+				31
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/adler32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/compress.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/crc32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/crc32.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/deflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/deflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/gzclose.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/gzguts.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/gzlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/gzread.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/gzwrite.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/infback.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/inffast.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/inffast.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/inffixed.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/inflate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/inflate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/inftrees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/inftrees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/names.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/trees.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/trees.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/uncompr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/zconf.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/zlib.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/zutil.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib/zutil.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "external/crashpad/third_party/zlib/zlib_crashpad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/crc_folding.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/fill_window_sse.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 0,
+			"path" : "external/crashpad/third_party/zlib/zlib/x86.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"path" : "external/crashpad/third_party/zlib/zlib/x86.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

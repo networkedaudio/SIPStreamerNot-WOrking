@@ -1,0 +1,979 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "sentry.dll"
+		},
+		{
+			"path" : "sentry.lib"
+		},
+		{
+			"path" : "sentry.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"sentry_install",
+			"target_link_libraries",
+			"add_dependencies",
+			"target_compile_options",
+			"add_subdirectory",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 478,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 196,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 260,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 339,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 364,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 422,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 434,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 271,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 244,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 248,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 324,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 299,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 215,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/wd5105"
+				},
+				{
+					"fragment" : "-std:c11"
+				},
+				{
+					"fragment" : "/W0"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "CRASHPAD_ZLIB_SOURCE_EMBEDDED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SENTRY_BACKEND_CRASHPAD"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SENTRY_BUILD_SHARED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SENTRY_WITH_UNWINDER_DBGHELP"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SIZEOF_LONG=4"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ZLIB_CONST"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"define" : "sentry_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/SIPServerFSMaster/sentry-native/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/SIPServerFSMaster/sentry-native/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/compat/win"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium/mini_chromium"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/wd5105"
+				},
+				{
+					"fragment" : "-std:c11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "CRASHPAD_ZLIB_SOURCE_EMBEDDED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SENTRY_BACKEND_CRASHPAD"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SENTRY_BUILD_SHARED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SENTRY_WITH_UNWINDER_DBGHELP"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SIZEOF_LONG=4"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ZLIB_CONST"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"define" : "sentry_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/SIPServerFSMaster/sentry-native/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/SIPServerFSMaster/sentry-native/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/compat/win"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium/mini_chromium"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				4,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				46,
+				48,
+				49,
+				50,
+				52,
+				53,
+				54,
+				55,
+				57
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/W4"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "/wd5105"
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "CRASHPAD_ZLIB_SOURCE_EMBEDDED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SENTRY_BACKEND_CRASHPAD"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SENTRY_BUILD_SHARED"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SENTRY_WITH_UNWINDER_DBGHELP"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SIZEOF_LONG=4"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ZLIB_CONST"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_WIN32_WINNT=0x0A00"
+				},
+				{
+					"define" : "sentry_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "C:/SIPServerFSMaster/sentry-native/include"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "C:/SIPServerFSMaster/sentry-native/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/compat/win"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium/mini_chromium"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/SIPServerFSMaster/sentry-native/external/crashpad/third_party/mini_chromium"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				56
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "crashpad_compat::@4882f9503a4ebb7049c7"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "mini_chromium::@ed578acf18ca0a21c494"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "crashpad_util::@faa0c38158744cf666db"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "crashpad_zlib::@6e8cdadd8cf38dab5571"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "crashpad_client::@f49b192644c81424e5ad"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "crashpad_handler::@24526581d16b6149cb51"
+		}
+	],
+	"id" : "sentry::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/SIPServerFSMaster/sentry-native/out/install/x64-Debug"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "winhttp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "shlwapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "dbghelp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "version.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "crashpad_build\\client\\crashpad_client.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crashpad_build\\util\\crashpad_util.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crashpad_build\\compat\\crashpad_compat.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crashpad_build\\third_party\\zlib\\crashpad_zlib.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "user32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "winhttp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "version.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "crashpad_build\\third_party\\mini_chromium\\mini_chromium.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "advapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "rpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "sentry",
+	"nameOnDisk" : "sentry.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				7,
+				9,
+				11,
+				13,
+				15,
+				17,
+				19,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				46,
+				48,
+				49,
+				50,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				16,
+				18,
+				20,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				47,
+				51
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "vendor/mpack.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 15,
+			"path" : "include/sentry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_alloc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_alloc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_backend.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_backend.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_boot.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_core.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_database.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_database.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_envelope.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_envelope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_json.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_json.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_logger.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_logger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_options.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_options.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_os.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_os.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_path.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_random.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_random.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_ratelimiter.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_ratelimiter.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_scope.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_scope.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_session.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_session.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_slice.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_slice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_string.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_symbolizer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_sync.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_sync.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_transport.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_transport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_uuid.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_uuid.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_value.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_value.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/path/sentry_path.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/transports/sentry_disk_transport.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/transports/sentry_disk_transport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/transports/sentry_function_transport.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/unwinder/sentry_unwinder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/sentry_windows_dbghelp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"path" : "src/sentry_windows_dbghelp.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/path/sentry_path_windows.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/symbolizer/sentry_symbolizer_windows.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/modulefinder/sentry_modulefinder_windows.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/transports/sentry_transport_winhttp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 2,
+			"path" : "src/backends/sentry_backend_crashpad.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 10,
+			"compileGroupIndex" : 1,
+			"path" : "src/unwinder/sentry_unwinder_dbghelp.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

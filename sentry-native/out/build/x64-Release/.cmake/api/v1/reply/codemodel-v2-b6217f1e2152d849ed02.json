@@ -1,0 +1,388 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						13
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.4"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						11,
+						12
+					]
+				},
+				{
+					"build" : "src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src"
+				},
+				{
+					"build" : "crashpad_build",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/crashpad"
+				},
+				{
+					"build" : "crashpad_build/compat",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/compat",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "crashpad_build/minidump",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/minidump",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "crashpad_build/snapshot",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/snapshot",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "crashpad_build/util",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/util",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "crashpad_build/third_party/mini_chromium",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/third_party/mini_chromium",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "crashpad_build/client",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/client",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "crashpad_build/third_party/zlib",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/third_party/zlib",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "crashpad_build/third_party/getopt",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/third_party/getopt",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "crashpad_build/tools",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/tools",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "crashpad_build/handler",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "external/crashpad/handler",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "tests/unit",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.4"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests/unit",
+					"targetIndexes" : 
+					[
+						13
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						13
+					],
+					"name" : "Sentry-Native",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "crashpad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 8,
+					"id" : "crashpad_client::@f49b192644c81424e5ad",
+					"jsonFile" : "target-crashpad_client-RelWithDebInfo-f561756076b1d986011c.json",
+					"name" : "crashpad_client",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "crashpad_compat::@4882f9503a4ebb7049c7",
+					"jsonFile" : "target-crashpad_compat-RelWithDebInfo-daa8fc11258f4e655b48.json",
+					"name" : "crashpad_compat",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "crashpad_getopt::@d23b4f87dac2a1f78f32",
+					"jsonFile" : "target-crashpad_getopt-RelWithDebInfo-aa0836fc587eb894a9c2.json",
+					"name" : "crashpad_getopt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "crashpad_handler::@24526581d16b6149cb51",
+					"jsonFile" : "target-crashpad_handler-RelWithDebInfo-80763b47ce811abceb30.json",
+					"name" : "crashpad_handler",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "crashpad_handler_lib::@24526581d16b6149cb51",
+					"jsonFile" : "target-crashpad_handler_lib-RelWithDebInfo-76ac68c6d3fdf2caa7d3.json",
+					"name" : "crashpad_handler_lib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "crashpad_minidump::@2fba3a07bb6df3728ed8",
+					"jsonFile" : "target-crashpad_minidump-RelWithDebInfo-dfe89f6875b160989a46.json",
+					"name" : "crashpad_minidump",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "crashpad_snapshot::@5c5e14401644c9d42894",
+					"jsonFile" : "target-crashpad_snapshot-RelWithDebInfo-6901deec11a646f9bf98.json",
+					"name" : "crashpad_snapshot",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "crashpad_tools::@ebf4813da1167916caa6",
+					"jsonFile" : "target-crashpad_tools-RelWithDebInfo-6fa19073065768586bd8.json",
+					"name" : "crashpad_tools",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "crashpad_util::@faa0c38158744cf666db",
+					"jsonFile" : "target-crashpad_util-RelWithDebInfo-8ae11cc59fc7214fa1c8.json",
+					"name" : "crashpad_util",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "crashpad_zlib::@6e8cdadd8cf38dab5571",
+					"jsonFile" : "target-crashpad_zlib-RelWithDebInfo-758bbf95fc02d6983d59.json",
+					"name" : "crashpad_zlib",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "mini_chromium::@ed578acf18ca0a21c494",
+					"jsonFile" : "target-mini_chromium-RelWithDebInfo-2bb42ce8649961f0d4db.json",
+					"name" : "mini_chromium",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sentry::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sentry-RelWithDebInfo-74b935115b40fff80251.json",
+					"name" : "sentry",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sentry_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sentry_example-RelWithDebInfo-ed8bb5d7391349b9c311.json",
+					"name" : "sentry_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "sentry_test_unit::@17bd492d087794b9594e",
+					"jsonFile" : "target-sentry_test_unit-RelWithDebInfo-db2e70624ffcba9e978d.json",
+					"name" : "sentry_test_unit",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/SIPServerFSMaster/sentry-native/out/build/x64-Release",
+		"source" : "C:/SIPServerFSMaster/sentry-native"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

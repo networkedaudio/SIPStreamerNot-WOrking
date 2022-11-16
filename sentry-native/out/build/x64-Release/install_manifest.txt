@@ -1,0 +1,13 @@
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/bin/sentry.pdb
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/bin/crashpad_handler.exe
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/cmake/sentry/sentry_crashpad-targets.cmake
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/cmake/sentry/sentry_crashpad-targets-relwithdebinfo.cmake
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/bin/crashpad_handler.pdb
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/sentry.lib
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/bin/sentry.dll
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/include/sentry.h
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/cmake/sentry/sentry-targets.cmake
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/cmake/sentry/sentry-targets-relwithdebinfo.cmake
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/cmake/sentry/sentry-config.cmake
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/lib/cmake/sentry/sentry-config-version.cmake
+C:/SIPServerFSMaster/sentry-native/out/install/x64-Release/bin/sentry.pdb
